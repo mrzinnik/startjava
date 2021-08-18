@@ -1,34 +1,24 @@
 public class Calculator {
     
     public static void main(String[] args) {
-        int num1 = 9;
-        int num2 = 2;
+        int num1 = 1;
+        int num2 = 9;
         char mathOperator = '^';
         int result = 0;
 
         if(mathOperator == '+') {
             result = num1 + num2;
-        }
-
-        if(mathOperator == '-') {
+        } else if(mathOperator == '-') {
             result = num1 - num2;
-        }
-
-        if(mathOperator == '*') {
+        } else if(mathOperator == '*') {
             result = num1 * num2;    
-        }
-
-        if(mathOperator == '/') {
+        } else if(mathOperator == '/') {
             result = num1 / num2;
-        }
-
-        if(mathOperator == '%') {
+        } else if(mathOperator == '%') {
             result = num1 % num2;
-        }
-
-        if(mathOperator == '^') {
-            result = num1;
-            for(int i = 2; i <= num2; i++) {
+        } else if(mathOperator == '^') {
+            result = 1;
+            for(int i = 1; i <= num2; i++) {
                 result *= num1;
             }
         }
