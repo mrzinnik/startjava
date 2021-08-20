@@ -6,24 +6,18 @@ public class JaegerTest {
         jaegerOne.setHeight(70.91f);
         jaegerOne.setWeight(2128);
         jaegerOne.setWeapon("Vortex Cannon");
-        System.out.println("Jaeger #1 name = " + jaegerOne.getName());
-        System.out.println("Jaeger #1 height = " + jaegerOne.getHeight());
-        System.out.println("Jaeger #1 weight = " + jaegerOne.getWeight());
-        System.out.println("Jaeger #1 weapon = " + jaegerOne.getWeapon());
+        System.out.println("Jaeger #1:");
+        System.out.println(jaegerOne);
         
         Jaeger jaegerTwo = new Jaeger("Gipsy Avenger", 81.77f, 2004, "Plasma Caster 2.0");
-        System.out.println("Jaeger #2 name = " + jaegerTwo.getName());
-        System.out.println("Jaeger #2 height = " + jaegerTwo.getHeight());
-        System.out.println("Jaeger #2 weight = " + jaegerTwo.getWeight());
-        System.out.println("Jaeger #2 weapon = " + jaegerTwo.getWeapon());
+        System.out.println("Jaeger #2:");
+        System.out.println(jaegerTwo);
         jaegerTwo.setName("Saber Athena");
         jaegerTwo.setHeight(76.91f);
         jaegerTwo.setWeight(1628);
         jaegerTwo.setWeapon("N-16 Particle Charger");
-        System.out.println("Jaeger #2 name = " + jaegerTwo.getName());
-        System.out.println("Jaeger #2 height = " + jaegerTwo.getHeight());
-        System.out.println("Jaeger #2 weight = " + jaegerTwo.getWeight());
-        System.out.println("Jaeger #2 weapon = " + jaegerTwo.getWeapon());
+        System.out.println("Jaeger #2:");
+        System.out.println(jaegerTwo);
 
         jaegerOne.drift();
         jaegerOne.move();

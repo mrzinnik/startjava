@@ -62,4 +62,11 @@ public class Jaeger {
     public void useWeapon() {
         System.out.println(name + " use " + weapon);
     }
+
+    public String toString() {
+        return "name = " + name + "\n" +
+                "height = " + height + "\n" +
+                "weight = " + weight + "\n" +
+                "weapon = " + weapon;
+    } 
 }
